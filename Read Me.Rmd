@@ -1,0 +1,43 @@
+---
+title: "Getting and Cleaning Data Read Me"
+author: "Sean S"
+date: "7/1/2017"
+output: html_document
+---
+
+Variable Names
+
+testSubjects - contains test Subject IDs
+testX - contains X axis data for test Subjects
+testY - contains y axis data for test Subjects
+testFullData - contains Subject IDs, x axis data, and y axis data for all test Subjects
+
+trainSubjects - contains train Subject IDs
+trainX - contains X axis data for train Subjects
+trainY - contains y axis data for train Subjects
+trainFullData - contains Subject IDs, x axis data, and y axis data for all train Subjects
+
+fullActivityData - contains all data for test and train subjects
+fullActivityDataSTDMean - contains all data for mean/std variables for test and train subjects
+
+### The code completes the following processes
+
+#### Reads in and Formats Subject ID Data ####
+#### Reads in Column Names and Manipulates them so they are unique ####
+
+#### Reads in and Formats Test Data ####
+## Generates consolidated data table for subjects, adding Flag to 
+## indicate they belong to the 'Test' group
+
+#### Reads in and Formats Train Data ####
+## Generates consolidated data table for subjects, adding Flag to 
+## indicate they belong to the 'Train' group
+
+#### Generates Full Data Set from Test and Train Data  ####
+
+#### Subsets Columns with Mean and Std Deviation Variables ####
+
+#### Renames Columns to be identifiable ####
+
+#### Generates and writes a Single Tidy Data Set ####
+

@@ -1,0 +1,21 @@
+---
+title: "Codebook"
+author: "Sean S"
+date: "7/1/2017"
+output: html_document
+---
+
+Variable Names
+
+testSubjects - contains test Subject IDs
+testX - contains X axis data for test Subjects
+testY - contains y axis data for test Subjects
+testFullData - contains Subject IDs, x axis data, and y axis data for all test Subjects
+
+trainSubjects - contains train Subject IDs
+trainX - contains X axis data for train Subjects
+trainY - contains y axis data for train Subjects
+trainFullData - contains Subject IDs, x axis data, and y axis data for all train Subjects
+
+fullActivityData - contains all data for test and train subjects
+fullActivityDataSTDMean - contains all data for mean/std variables for test and train subjects
